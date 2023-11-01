@@ -4,9 +4,9 @@ namespace Functions
 {
     class Function { 
         // Матиматические функции.
-        public static int math_k(int pk, int px) { return pk * px; }
-        public static int math_kn(int pk, int pn, int px) { return (pk - pn) * px; }
-        public static int math_degree(int pk, int px, int pc) { return (int)((pk * Math.Pow(px, 3.0)) + pc); }
+        private static int math_k(int pk, int px) { return pk * px; }
+        private static int math_kn(int pk, int pn, int px) { return (pk - pn) * px; }
+        private static int math_degree(int pk, int px, int pc) { return (int)((pk * Math.Pow(px, 3.0)) + pc); }
 
         // Вывод в консоль меню.
         public static void sapka()
